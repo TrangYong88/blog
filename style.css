@@ -1,0 +1,460 @@
+.Demo{
+    width: 88%;
+    margin: auto;
+}
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+}
+.container:hover .text_blog{
+    color: gray;
+    cursor: pointer;
+}
+.a{
+    width: 50px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+.facebook:hover, .insta:hover, .youtube:hover, .blog:hover{
+    color: grey;
+}
+.facebook{
+    margin-left: 50px;
+}
+.text_blog{
+    margin: auto;
+    text-align: right;
+    width: 1000px;
+    font-family: cursive;
+    color:antiquewhite ;
+    
+}
+.text_blog :hover{
+    cursor: pointer;
+    color: dimgray;
+}
+.Name{
+    height: 250px;
+    width: 100%;
+    /* background-color: azure; */
+    box-shadow: 5px 5px 5px #AAA;
+}
+.subName1{
+    width: 100%;
+    height: 200px;
+    font-family: cursive;
+    text-align: center;
+    line-height: 200px;
+    font-size: 60px;
+
+}
+.subName2{
+    width: 100%;
+    height: 50px;
+}
+.ssubName2{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.TrangChu{
+    width: 16.67%;
+    height: 100%;
+    font-family: cursive;
+    line-height: 50px;
+}
+.trangchuMenu{
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    background-color: #AAA;
+    display: none;
+}
+.TrangChu:hover .trangchuMenu{
+    display: block;
+}
+.menu1{
+    width: 100%;
+    height: 50px;
+}
+.menu2{
+    width: 100%;
+    height: 50px;
+}
+.menu3{
+    width: 100%;
+    height: 50px;
+}
+.menu1:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+ .menu2:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+a{
+    text-decoration: none;
+}
+.trangchubtn, .baivietbtn, .sothichbtn, .lienhebtn, .thongtinbtn, .kinhnghiembtn{
+    border: none;
+    background-color: white;
+    outline: none;
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+}
+.trangchubtn:hover, .baivietbtn:hover, .sothichbtn:hover, .lienhebtn:hover, .thongtinbtn:hover, .kinhnghiembtn:hover{
+    background-color: lightblue;
+    color: dimgray;
+    cursor: pointer;
+    font-size: 20px;
+}
+.BaiViet{
+    width: 16.67%;
+    height: 100%;
+    font-family: cursive;
+    line-height: 50px;
+}
+.SoThich{
+    width: 16.67%;
+    height: 100%;
+    font-family: cursive;
+    line-height: 50px;
+}
+.LienHe{
+    width: 16.67%;
+    height: 100%;
+    font-family: cursive;
+    line-height: 50px;
+}
+.ThongTin{
+    width: 16.67%;
+    height: 100%;
+    font-family: cursive;
+    line-height: 50px;
+}
+.KinhNghiem{
+    font-family: cursive;
+    line-height: 50px;
+}
+.photo{
+    width: 100%;
+    margin-top: 100px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin-top: 80px;
+    width: 80%;
+}
+.mean{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.fvphoto{
+    font-family: cursive;
+    font-size: 22px;
+}
+.left{
+    width: 70%; 
+    display: flex; 
+}
+.l1{
+    width: 46%;
+}
+.l11{
+    width: 100%;
+    box-shadow: 3px 3px 3px #AAA;
+    height: 358px;
+}
+.image{
+    width: 100%;
+    height: 60%; 
+}
+.img2{
+    margin-top: 100px;
+}
+.ava_info{
+    width: 100%;
+    height: 32%;
+    display: flex;
+}
+.ava{
+    width: 25%;
+    height: 100%; 
+}
+.img1{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.img1:hover{
+    box-shadow: 5px 5px 5px #AAA;
+    cursor: pointer;
+}
+.info{
+    width: 75%;
+    height: 100%;
+}
+.info_1{
+    font-family: cursive;
+    width: 100%;
+    height: 70%;
+    margin-left: 10px;
+}
+.info_1:hover{
+    color: brown;
+    cursor: pointer;
+}
+.info_2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.icon1{
+    /* margin-top: 25px; */
+    margin-left: 10px; 
+}
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover, .icon5:hover{
+    cursor: pointer;
+    color: #AAA;
+}
+.icon2, .icon3, .icon4, .icon5{
+    /* margin-top: 25px; */
+    margin-left: 20px
+}
+.empty{
+    width: 8%;
+}
+.l2{
+    width: 46%;
+}
+.right{
+    width: 22%;
+}
+.input{
+    font-family: cursive;
+    color: gray;
+    width: 80%;
+}
+.ava_r{
+    margin-top: 50px;
+    width: 100%;
+    height: 65px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+.ava_m{
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.diary{
+    width: 80%;
+    font-family: cursive;
+    box-shadow: 5px 5px 5px 5px #AAA;
+    text-align: center;
+}
+.button_sub{
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: indianred;
+    color: lightblue;
+}
+.icon_4{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+}
+.button_sub:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #AAA;
+    background-color: lightblue;
+    color: olivedrab;
+}
+.div_fa_to_text{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+}
+.fa_to_text{
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered; 
+}
+.fa_to{
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+}
+.fa_to1{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    font-family: cursive;
+}
+.fa_to2{
+    width: 100%;
+    height: 33.3%;
+    font-family: cursive;
+    display: flex;
+}
+.fa_to3{
+    width: 100%;
+    height: 33.4%;
+    font-family: cursive;
+    display: flex;
+}
+.fa_to1_img{
+    width: 50%;
+    height: 100%;
+}
+.icon{
+    width: 80%;
+    /* display: flex; */
+}
+.btn{
+    margin: 6px;
+    border-radius: 8px;
+    background-color: paleturquoise;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #AAA;
+    background-color: peachpuff;
+    color: peru;
+}
+.number_page{
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.infor{
+    margin-top: 35px;
+    width: 100%;
+    background-color: rosybrown;
+}
+.sub_infor{
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+}
+.sub_left{
+    width: 50%;
+
+}
+.sub_right{
+    padding-right: 30px;
+    width: 50%;
+}
+.right_photo{
+    width: 500px;
+    height: 320px;
+}
+.infor_ava{
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.infor_phone{
+    width: 30%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.fa-phone{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.number_phone{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-family: cursive;
+}
+.infor_mail{
+    width: 40%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    display: flex;
+    font-family: cursive;
+}
+.fa-envelope{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.mail{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.text{
+    width: 60%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    font-family: cursive;
+    font-size: 22px;
+}
+.travel{
+    color: seagreen;
+}
+.every{
+    color: white;
+}
+.when{
+    color: yellow;
+}
+.can{
+    color: turquoise;
+}
+.sign{
+    color: white;
+}
+p:hover, .fa:hover{
+    cursor: pointer;
+    color: khaki;
+} 
+span:hover{
+    color: khaki;
+}
+img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #AAA;
+}
+.thank{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+.T{
+    color: maroon;
+}
+.N{
+    color: mediumaquamarine;
+}
+/* .cha:hover .con{
+
+} */
